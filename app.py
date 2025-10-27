@@ -53,7 +53,7 @@ with st.sidebar:
     st.write("---")
     st.markdown("App built from a user notebook. Use responsibly and do not overload the source site.")
 
-route_slug = ROUTES[route_name]
+route_slug = ROUTE_PAGES[route_name]
 route_url = urljoin(BASE_URL, route_slug)
 
 # Cache wrapper for fetching raw HTML (cached by URL and TTL)
