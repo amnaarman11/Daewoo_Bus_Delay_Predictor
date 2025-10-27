@@ -45,7 +45,7 @@ st.markdown(
 # Sidebar controls
 with st.sidebar:
     st.header("Controls")
-    route_name = st.selectbox("Choose route", list(ROUTES.keys()))
+    route_name = st.selectbox("Choose route", list(ROUTE_PAGES.keys()))
     refresh = st.button("Refresh data (scrape live)")
     st.write("---")
     st.markdown("**Cache settings**")
