@@ -22,13 +22,12 @@ import time
 BASE_URL = "https://daewooinfo.pk"
 
 # A small list of route slugs. You can extend this list or replace with any valid route path on the site.
-ROUTES = {
-    "Lahore ↔ Islamabad": "/daewoo-lahore-islamabad/",
-    "Karachi ↔ Lahore": "/daewoo-karachi-lahore/",
-    "Karachi ↔ Islamabad": "/daewoo-karachi-islamabad/",
-    "Multan ↔ Rawalpindi": "/daewoo-multan-rawalpindi/",
-    "Multan ↔ Lahore": "/daewoo-multan-lahore/",
-    "Peshawar ↔ Islamabad": "/daewoo-peshawar-islamabad/",
+ROUTE_PAGES = {
+    "Lahore ⇄ Karachi": "/daewoo-lahore-karachi/",
+    "Lahore ⇄ Islamabad": "/daewoo-lahore-islamabad/",
+    "Lahore ⇄ Multan": "/daewoo-lahore-multan/",
+    "Lahore ⇄ Faisalabad": "/daewoo-lahore-faisalabad/",
+    "Lahore ⇄ Peshawar": "/daewoo-lahore-peshawar/",
 }
 
 HEADERS = {
